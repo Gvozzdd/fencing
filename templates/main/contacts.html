@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}Контакты{% endblock %}
+{% block content %}
+<h2>Контакты</h2>
+<p><strong>Телефон:</strong> {{ contact.phone }}</p>
+<p><strong>Email:</strong> {{ contact.email }}</p>
+<p><strong>Адрес:</strong> {{ contact.address }}</p>
+<p>
+    <a href="https://vk.com" target="_blank">ВКонтакте</a> |
+    <a href="https://t.me" target="_blank">Telegram</a>
+</p>
+{% endblock %}

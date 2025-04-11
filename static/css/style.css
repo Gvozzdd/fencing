@@ -1,0 +1,17 @@
+body {
+    background-color: white;
+    color: #000;
+    font-family: sans-serif;
+}
+.navbar {
+    background-color: #0078BE;
+}
+.navbar a {
+    color: white !important;
+}
+.footer {
+    background-color: #228B22;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
